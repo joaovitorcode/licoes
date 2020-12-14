@@ -28,3 +28,8 @@ function converte(numBin) {
         console.log(resultado);
     })
 }
+
+/*
+Referência:
+https://www.youtube.com/watch?v=zToihF2FE9I&ab_channel=GCFAprendeLivre
+*/
