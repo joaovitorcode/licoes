@@ -1,0 +1,55 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.luzes {
+    width: 100vw;
+    height: 10vh;
+    /* background: white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.luz {
+    width: 75px;
+    height: 75px;
+    /* background: grey; */
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.suporte {
+    width: 15px;
+    height: 15px;
+    background: gray;
+}
+
+.circulo {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.vermelho {
+    background: crimson;
+
+}
+
+.amarelo {
+    background: yellow;
+}
+
+.azul {
+    background: turquoise;
+}
+
+.verde {
+    background: yellowgreen;
+}
