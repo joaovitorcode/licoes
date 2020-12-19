@@ -6,3 +6,4 @@
 4. Christmas Lights v1.0 (FAIL)
 5. Countdown Timer
 6. Jogo da Velha v1.0
+7. Cronômetro v1.0
