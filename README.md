@@ -7,3 +7,4 @@
 5. Countdown Timer
 6. Jogo da Velha v1.0
 7. Cronômetro v1.0
+8. Sorteador v1.0

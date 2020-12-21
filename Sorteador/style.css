@@ -1,0 +1,83 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: cornflowerblue;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-caixa {
+    width: 300px;
+    height: 75px;
+    /* background: chartreuse; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-valor {
+    box-sizing: border-box;
+    width: 300px;
+    height: 30px;
+    border: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.botoes button {
+    box-sizing: border-box;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.botoes button:hover {
+    background:skyblue;
+    color: white;
+    cursor: pointer;
+}
+
+.botoes button:active {
+    background: powderblue;
+}
+
+.output-caixa {
+    width: 300px;
+    height: 250px;
+    /* background: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-valor {
+    box-sizing: border-box;
+    width: 140px;
+    height: 200px;
+    border: white;
+    border-radius: 5px 0 0 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.caixa-sorteio {
+    box-sizing: border-box;
+    width: 140px;
+    height: 200px;
+    border: white;
+    border-radius: 0 5px 5px 0;
+    margin-top: 10px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
