@@ -1,5 +1,5 @@
-let dataInput = document.querySelector('.data-input');
-let dataOutput = document.querySelector('.data-output');
+let dataEntrada = document.querySelector('.data-entrada');
+let dataResultado = document.querySelector('.data-resultado');
 
 setInterval(atualiza, 1000);
 
@@ -7,7 +7,7 @@ function atualiza() {
    
     const dataAtual = new Date();
     // O método parse() converte uma string em data
-    const dataEscolhida = Date.parse(dataInput.value);
+    const dataEscolhida = Date.parse(dataEntrada.value);
 
     const diferenca = dataEscolhida - dataAtual;
     const dia = Math.floor(diferenca / 1000 / 60 / 60 / 24);
@@ -15,12 +15,12 @@ function atualiza() {
     const minutos = Math.floor(diferenca / 1000 / 60) % 60;
     const segundos = Math.floor(diferenca / 1000) % 60;
 
-    if (dataInput.value === '') {
+    if (dataEntrada.value === '') {
 
-        dataOutput.textContent = '';
+        dataResultado.textContent = '00 : 00 : 00 : 00';
     } else {
 
-        dataOutput.textContent = `
+        dataResultado.textContent = `
             ${dia} : ${horas} : ${minutos} : ${segundos}
         `;
     }

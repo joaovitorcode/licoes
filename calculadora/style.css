@@ -1,25 +1,23 @@
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 .container {
+    width: 100vw;
+    height: 100vh;
+    background: cornflowerblue;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: cornflowerblue;
-    width: 100vw;
-    height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .calculadora {
-    background: white;
     width: 300px;
     height: 300px;
-    border-radius: 20px;
+    background: white;
     display: flex;
+    flex-flow: column wrap;
     justify-content: space-evenly;
     align-items: center;
-    flex-flow: column wrap;
+    border-radius: 20px;
+    box-shadow: black 0 0 5px;
 }
 
 .resultado p {
@@ -30,27 +28,25 @@ body {
     box-sizing: border-box;
     width: 60px;
     height: 25px;
+    background: white;
+    color: cornflowerblue;
     border: solid cornflowerblue 1px;
     border-radius: 2px;
     padding: 5px;
-    background: white;
-    color: cornflowerblue;
-    font-weight: bold;
 }
 
 .entrada button {
-    background: cornflowerblue;
-    color: white;
     width: 60px;
     height: 25px;
-    border: white;
+    background: cornflowerblue;
+    color: white;
+    border: none;
     border-radius: 2px;
 }
 
 .entrada button:hover {
     background: white;
     color: cornflowerblue;
-    font-weight: bold;
     cursor: pointer;
     border: solid cornflowerblue 1px;
 }

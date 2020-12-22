@@ -15,6 +15,7 @@
     background: white;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: black 0 0 5px;
 }
 
 .info {

@@ -9,10 +9,37 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.input {
+.cronometro {
     width: 300px;
-    height: 100px;
-    /* background: white; */
+    height: 300px;
+    background: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: black 0 0 5px;
+}
+
+.resultado {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.info {
+    font-size: 12px;
+    text-align: center;
+ }
+
+.timer {
+    font-size: 32px;
+    text-align: center;
+}
+
+.entrada {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,47 +47,29 @@
 }
 
 input {
-    width: 150px;
+    width: 100px;
     height: 25px;
     box-sizing: border-box;
-    border: white;
-    margin: 10px 5px;
-    border-radius: 5px;
-    padding: 10px;
+    border: cornflowerblue solid 1px;
+    color: cornflowerblue;
+    border-radius: 2px;
+    padding: 5px;
 }
 
 button {
-    width: 75px;
+    width: 60px;
     height: 25px;
-    border: white;
+    background: cornflowerblue;
+    color: white;
+    border: none;
     margin: 10px 5px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 button:hover {
     cursor: pointer;
-    background: skyblue;
-    color: white;
-
-}
-
-.output {
-    width: 300px;
-    height: 200px;
     background: white;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    box-sizing: border-box;
+    border: cornflowerblue solid 1px;
+    color: cornflowerblue;
 }
 
-.info {
-   font-size: 16px;
-   margin: 20px;
-}
-
-.timer {
-    font-size: 24px;
-}

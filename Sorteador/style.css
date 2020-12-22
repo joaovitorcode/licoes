@@ -12,7 +12,6 @@
 .input-caixa {
     width: 300px;
     height: 75px;
-    /* background: chartreuse; */
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -27,15 +26,19 @@
     border-radius: 15px;
     margin-bottom: 10px;
     text-align: center;
+    box-shadow: black 0 0 5px;
 }
 
 .botoes button {
     box-sizing: border-box;
     width: 100px;
     height: 30px;
-    font-weight: bold;
+    background: white;
+    color: skyblue;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
+    font-weight: bold;
+    box-shadow: black 0 0 5px;
 }
 
 .botoes button:hover {
@@ -51,7 +54,6 @@
 .output-caixa {
     width: 300px;
     height: 250px;
-    /* background: chocolate; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,6 +70,7 @@
     padding: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    box-shadow: black 0 0 5px;
 }
 
 .caixa-sorteio {
@@ -80,4 +83,5 @@
     padding: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    box-shadow: black 0 0 5px;
 }

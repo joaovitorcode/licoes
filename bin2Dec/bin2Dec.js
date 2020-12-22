@@ -1,33 +1,28 @@
-let pOutput = document.querySelector('output p');
-let input = document.querySelector('.input input');
-let button = document.querySelector('.input button');
+let resultadoP = document.querySelector('.resultado p');
+let entradaInput = document.querySelector('.entrada input');
+let entradaButton = document.querySelector('.entrada button');
 
-converte(input);
+entradaButton.addEventListener('click', () => {
 
-function converte(numBin) {
-
-    button.addEventListener('click', (event) => {
-
-        event.preventDefault();
-
-        // Separa cada caractere da string transformando-o num item de um array
-        let array = numBin.value.split('');
-        let novoArray = [];
-        let base = 2;
+    // Separa cada caractere da string transformando-o num item de um array
+    let array = entradaInput.value.split('');
+    let novoArray = [];
+    let base = 2;
+    
+    array.forEach((elemento, indice) => {
         
-        array.forEach((elemento, indice) => {
-            
-            let expoente = (array.length - 1) - indice;
-            novoArray.push((base ** expoente) * Number(elemento));
-        });
-        
-        let resultado = novoArray.reduce((soma, item) => {
+        let expoente = (array.length - 1) - indice;
+        novoArray.push((base ** expoente) * Number(elemento));
+    });
+    
+    let resultado = novoArray.reduce((soma, item) => {
 
-            return soma + item;
-        })
-        console.log(resultado);
+        return soma + item;
     })
-}
+
+    resultadoP.textContent = resultado;
+    console.log(resultado);
+})
 
 /*
 Referência:
