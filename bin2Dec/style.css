@@ -3,6 +3,7 @@
     height: 100vh;
     background: cornflowerblue;
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
