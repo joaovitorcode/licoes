@@ -8,5 +8,5 @@
 6. Jogo da Velha v1.0
 7. Cronômetro v1.0
 8. Sorteador v1.0
-8. Calculadora v2.0
-9. Random-Number-Generator v1.0
+9. Calculadora v2.0
+10. Random-Number-Generator v1.0
