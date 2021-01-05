@@ -1,0 +1,60 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.caixa {
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: black 0 0 5px;
+}
+
+.resultado {
+    font-size: 24px;
+}
+
+.valor {
+    box-sizing: border-box;
+    width: 200px;
+    height: 25px;
+    border: solid cornflowerblue 1px;
+    border-radius: 2px;
+    padding: 5px;
+    color: cornflowerblue;
+    margin: 0 0 10px 10px;
+    text-align: center;
+}
+
+.botao {
+    box-sizing: border-box;
+    width: 40px;
+    height: 25px;
+    background: cornflowerblue;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+.botao:hover {
+    background: white;
+    border: solid cornflowerblue 1px;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.botao:not(.igual) {
+    margin: 10px 0 0 18px;
+}
